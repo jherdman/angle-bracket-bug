@@ -5,3 +5,13 @@
     <option>I'm not listing options</option>
   {{/each}}
 </select>
+
+<hr>
+
+<select>
+  {{#each availableOptions as |opt|}}
+    <option>{{opt}}</option>
+  {{else}}
+    <option>I'm not listing options</option>
+  {{/each}}
+</select>
